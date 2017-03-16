@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+def default_pods
+# Pods for TTMWebImage_Demo
+# 第三方库
+
+pod 'SDWebImage', '~> 3.7.6'
+
+end
+
+target 'TTMWebImage_Demo' do
+default_pods
+end
