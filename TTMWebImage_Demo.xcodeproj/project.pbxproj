@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FC531711E7B6305000D3C8D /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC531701E7B6305000D3C8D /* Image.xcassets */; };
 		8FEBE1151E7A707B00DC9AF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE1141E7A707B00DC9AF2 /* main.m */; };
 		8FEBE1181E7A707B00DC9AF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE1171E7A707B00DC9AF2 /* AppDelegate.m */; };
 		8FEBE11B1E7A707B00DC9AF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE11A1E7A707B00DC9AF2 /* ViewController.m */; };
 		8FEBE11E1E7A707B00DC9AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBE11C1E7A707B00DC9AF2 /* Main.storyboard */; };
-		8FEBE1201E7A707B00DC9AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBE11F1E7A707B00DC9AF2 /* Assets.xcassets */; };
 		8FEBE1231E7A707B00DC9AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBE1211E7A707B00DC9AF2 /* LaunchScreen.storyboard */; };
 		8FEBE1321E7A72A800DC9AF2 /* TTMWebImageProgressLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE12D1E7A72A800DC9AF2 /* TTMWebImageProgressLineView.m */; };
 		8FEBE1331E7A72A800DC9AF2 /* TTMWebImageTraits.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBE12F1E7A72A800DC9AF2 /* TTMWebImageTraits.m */; };
@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8FC531701E7B6305000D3C8D /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 		8FEBE1101E7A707B00DC9AF2 /* TTMWebImage_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTMWebImage_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FEBE1141E7A707B00DC9AF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FEBE1161E7A707B00DC9AF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		8FEBE1191E7A707B00DC9AF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8FEBE11A1E7A707B00DC9AF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FEBE11D1E7A707B00DC9AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8FEBE11F1E7A707B00DC9AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FEBE1221E7A707B00DC9AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FEBE1241E7A707B00DC9AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FEBE12B1E7A72A800DC9AF2 /* TTMWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMWebImage.h; sourceTree = "<group>"; };
@@ -81,8 +81,8 @@
 				8FEBE1191E7A707B00DC9AF2 /* ViewController.h */,
 				8FEBE11A1E7A707B00DC9AF2 /* ViewController.m */,
 				8FEBE11C1E7A707B00DC9AF2 /* Main.storyboard */,
-				8FEBE11F1E7A707B00DC9AF2 /* Assets.xcassets */,
 				8FEBE1211E7A707B00DC9AF2 /* LaunchScreen.storyboard */,
+				8FC531701E7B6305000D3C8D /* Image.xcassets */,
 				8FEBE1241E7A707B00DC9AF2 /* Info.plist */,
 				8FEBE1131E7A707B00DC9AF2 /* Supporting Files */,
 			);
@@ -191,7 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FEBE1231E7A707B00DC9AF2 /* LaunchScreen.storyboard in Resources */,
-				8FEBE1201E7A707B00DC9AF2 /* Assets.xcassets in Resources */,
+				8FC531711E7B6305000D3C8D /* Image.xcassets in Resources */,
 				8FEBE11E1E7A707B00DC9AF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

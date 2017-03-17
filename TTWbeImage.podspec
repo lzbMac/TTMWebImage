@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TTWbeImage"
+  s.name         = "TTMWebImage"
   s.version      = "0.0.1"
-  s.summary      = "TTWbeImage for wbImage."
+  s.summary      = "TTMWebImage for webImage."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/lzbMac/TTWbeImage.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/lzbMac/TTMWebImage.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
