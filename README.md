@@ -4,3 +4,5 @@ _imgView.webImage
     .URLString(@"url")
     .placeHolderImageName(@"placeholder")
     .fetch();
+    //pod 安装，依赖库SDWebImage，无需重复pod
+pod "TTMWebImage"
